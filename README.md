@@ -24,5 +24,11 @@
 11. contstraint
 
     Not Null,Default,Unique,Check,Primary key, Foreign Key
-
+   
+     primary key -->when multiple columns are used as a primary key,they can calles composite key.
+     Foreign key --> ensure referential integrity(accuray & integrity) of data
+     
+ 12. copy data file to database
+ 
+             \copy customer from 'Downloads/Data/copy.csv' Delimiter ',' csv header
 
