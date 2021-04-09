@@ -31,4 +31,20 @@
  12. copy data file to database
  
              \copy customer from 'Downloads/Data/copy.csv' Delimiter ',' csv header
-
+             
+ 13. Alter
+ 
+      alter table table_name add column_name datatype
+      
+      alter table table_name drop column_name
+      
+      alter table table_name alter column column_name datatype  (modify column datatype & size)
+      
+      alter table table_name rename column column_name to new column_name
+      
+      alter table table_name alter column column_name set not null
+      
+       
+      alter table table_name alter column column_name set not null
+      
+      alter table table_name add constraint column_name check (column_name        condition)
