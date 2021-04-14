@@ -48,3 +48,8 @@
       alter table table_name alter column column_name set not null
       
       alter table table_name add constraint column_name check (column_name        condition)
+      
+
+14. show list of domain
+         
+       \dD
